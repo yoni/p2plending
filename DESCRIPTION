@@ -1,0 +1,15 @@
+Package: p2plending
+Title: Analysis of p2p loans
+Description: p2p lending analysis, based on data
+    from prosper.com
+Version: 0.0.1
+License: Copyright Yoni Ben-Meshulam. All rights restricted.
+Author: Yoni Ben-Meshulam
+Maintainer: Yoni Ben-Meshulam <yoni.bmesh@gmail.com>
+Depends:
+    R (>= 2.15),
+    ggplot2,
+    plyr,
+    reshape
+Collate:
+    'p2plending-package.r'
