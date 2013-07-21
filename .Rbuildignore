@@ -1,2 +1,4 @@
 \.Rbundle
 bin
+.*.swp
+out

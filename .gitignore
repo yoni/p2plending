@@ -1,3 +1,5 @@
 \.Rbundle
 \.Renviron
+*.swp
+out
 
