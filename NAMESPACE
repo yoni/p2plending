@@ -1,2 +1,4 @@
 export(readLendingClubStats)
+export(setDateFields)
+export(totalLoanAmount)
 importFrom(logging,logdebug)

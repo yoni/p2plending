@@ -13,4 +13,9 @@
 \description{
   Loads Lending Club Stats into a data.frame.
 }
+\examples{
+lcstats <- readLendingClubStats(system.file('sample/LoanStatsNew.csv', package='p2plending'))
+message(nrow(lcstats))
+stopifnot(nrow(lcstats) == 5)
+}
 

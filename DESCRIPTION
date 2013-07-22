@@ -16,3 +16,6 @@ Depends:
     logging
 Collate:
     'readLendingClubStats.r'
+    'totalLoanAmount.r'
+    'p2plending-package.r'
+    'setDateFields.r'
