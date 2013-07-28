@@ -16,7 +16,7 @@
 }
 \examples{
 data(LoanStatsNew)
-dat <- setDateFields(LoanStatsNew)
+dat <- prepare(LoanStatsNew)
 plotPurposeSummary(dat)
 }
 

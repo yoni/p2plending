@@ -4,12 +4,11 @@
 #' @export
 #' @examples
 #' data(LoanStatsNew)
-#' dat <- setDateFields(LoanStatsNew)
+#' dat <- prepare(LoanStatsNew)
 #' purpose_summary <- purposeSummary(dat)
 purposeSummary <- function(lending_club_stats) {
 
   lending_club_stats <- lending_club_stats[!is.na(lending_club_stats$funded_amnt),]
-  lending_club_stats$charged_off <- lending_club_stats$loan_status == "Charged Off"
 
   ddply(
     lending_club_stats,

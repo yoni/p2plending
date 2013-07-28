@@ -4,7 +4,7 @@
 #' @export
 #' @examples
 #' data(LoanStatsNew)
-#' dat <- setDateFields(LoanStatsNew)
+#' dat <- prepare(LoanStatsNew)
 #' plotPurposeSummary(dat)
 plotPurposeSummary <- function(lending_club_stats) {
   purpose_summary <- purposeSummary(lending_club_stats)

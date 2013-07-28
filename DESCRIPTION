@@ -22,3 +22,5 @@ Collate:
     'setDateFields.r'
     'purposeSummary.r'
     'plotPurposeSummary.r'
+    'loanRandomForest.r'
+    'prepare.r'

@@ -16,6 +16,10 @@ NULL
 
 # Appease CRAN by removing all "no visible binding for global variable" notes.
 # See http://stackoverflow.com/questions/9439256/how-can-i-handle-r-cmd-check-no-visible-binding-for-global-variable-notes-when
-#if(getRversion() >= "2.15.1") globalVariables(c(
-#  )
-#)
+if(getRversion() >= "2.15.1") globalVariables(c(
+    'percent_charged_off',
+    'number_of_loans',
+    'purpose',
+    'grade'
+  )
+)

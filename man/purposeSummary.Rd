@@ -16,7 +16,7 @@
 }
 \examples{
 data(LoanStatsNew)
-dat <- setDateFields(LoanStatsNew)
+dat <- prepare(LoanStatsNew)
 purpose_summary <- purposeSummary(dat)
 }
 
