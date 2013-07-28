@@ -1,3 +1,4 @@
+export(plotPurposeSummary)
 export(purposeSummary)
 export(readLendingClubStats)
 export(setDateFields)

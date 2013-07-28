@@ -21,3 +21,4 @@ Collate:
     'p2plending-package.r'
     'setDateFields.r'
     'purposeSummary.r'
+    'plotPurposeSummary.r'
