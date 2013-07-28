@@ -2,4 +2,6 @@
 \.Renviron
 *.swp
 out
+\.idea
+*.iml
 

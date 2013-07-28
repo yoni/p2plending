@@ -13,9 +13,11 @@ Depends:
     plyr,
     reshape,
     roxygen2,
-    logging
+    logging,
+    randomForest
 Collate:
     'readLendingClubStats.r'
     'totalLoanAmount.r'
     'p2plending-package.r'
     'setDateFields.r'
+    'purposeSummary.r'

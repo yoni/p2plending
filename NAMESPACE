@@ -1,3 +1,4 @@
+export(purposeSummary)
 export(readLendingClubStats)
 export(setDateFields)
 export(totalLoanAmount)

@@ -1,4 +1,6 @@
 \.Rbundle
 bin
 .*.swp
+\.idea
+.*.iml
 out

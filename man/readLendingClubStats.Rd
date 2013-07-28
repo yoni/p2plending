@@ -11,7 +11,8 @@
   data.frame of Lending Club Stats.
 }
 \description{
-  Loads Lending Club Stats into a data.frame.
+  Note that this discards loand which do not meet the
+  credit policy.
 }
 \examples{
 lcstats <- readLendingClubStats(system.file('sample/LoanStatsNew.csv', package='p2plending'))
